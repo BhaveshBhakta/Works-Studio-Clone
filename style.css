@@ -355,9 +355,11 @@ html,body{
 }
 
 .image-container{
+    position: relative;
     padding: 24px;
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -412,7 +414,8 @@ html,body{
 }
 
 #footer{
-    height: 40vh;
+    position: relative;
+    height: 50vh;
     width: 100%;
     background-color: white;
     display: flex;
@@ -423,13 +426,27 @@ html,body{
 }
 
 #footer #foot{
-    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
     width: 100%;
     background-color: black;
 }
 
+#scroll-animation-3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 3vw;
+}
 #scroll-animation-3 img{
-    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #scroll-animation-3 h2{
@@ -443,10 +460,7 @@ html,body{
 }
 
 #footleft{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    padding: 50px;
+    padding: 5vw;
 }
 
 #footright{
@@ -461,7 +475,7 @@ html,body{
 .button-bottom{
     position: relative;
     font-family: gilroy;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     border: none;
     outline: none;
     color: white;
